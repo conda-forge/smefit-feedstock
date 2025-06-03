@@ -28,7 +28,7 @@ requirements:
     - poetry-dynamic-versioning
     - pip
   run:
-    - python >=${{ python_min }}
+    - python >=${{ python_min }},<3.13
     - rich >=13.7.1,<14.0.0
     - matplotlib-base >=3.9.0,<4.0.0
     - pyyaml >=6.0.1,<7.0.0
