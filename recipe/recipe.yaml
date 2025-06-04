@@ -62,6 +62,7 @@ about:
   summary: smefit
   homepage: https://lhcfitnikhef.github.io/smefit_release/
   repository: https://github.com/LHCfitNikhef/smefit_release
+  documentation: https://smefit.science/
 
 extra:
   recipe-maintainers:
