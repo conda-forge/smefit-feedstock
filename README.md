@@ -11,6 +11,8 @@ Summary: smefit
 
 Development: https://github.com/LHCfitNikhef/smefit_release
 
+Documentation: https://smefit.science/
+
 Current build status
 ====================
 
