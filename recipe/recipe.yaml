@@ -1,16 +1,15 @@
 schema_version: 1
 
 context:
-  name: smefit
   version: "4.0.0"
   python_min: "3.10"
 
 package:
-  name: ${{ name|lower }}
+  name: "smefit"
   version: ${{ version }}
 
 source:
-  url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/smefit-${{ version }}.tar.gz
+  url: https://pypi.org/packages/source/s/smefit/smefit-${{ version }}.tar.gz
   sha256: c5b839f5904c9d55cf7b8a083abc17fc3471c8e3f3355809d478d5a4a375fefc
 
 build:
