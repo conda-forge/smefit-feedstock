@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: smefit
-  version: "3.1.1"
+  version: "4.0.0"
   python_min: "3.10"
 
 package:
@@ -11,10 +11,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/smefit-${{ version }}.tar.gz
-  sha256: c139e74861c9cad225a220e8bbb47640bf76dee3b1267f7d6d02b4396da68bb4
+  sha256: c5b839f5904c9d55cf7b8a083abc17fc3471c8e3f3355809d478d5a4a375fefc
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
   python:
